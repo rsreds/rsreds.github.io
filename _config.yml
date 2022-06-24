@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Simone Rossi Tisbeni
+subtitle: 'CV and blog of a PhD student'
+description: 'Blogging my experiences during my studies in Data Science and Computation'
 keywords:
-author: John Doe
+author: Simone Rossi Tisbeni
 language: en
-timezone: ''
+timezone: 'IT'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://rsreds.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -78,8 +78,8 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+date_format: DD-MM-YYYY
+time_format: HH:mm
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
