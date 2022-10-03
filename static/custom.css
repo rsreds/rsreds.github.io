@@ -1,7 +1,36 @@
+
+
 a.sc-orcid{
   background-color: #abce31;
 }
 
 nav a:hover,nav a:active,nav a:focus{
   color: #C74350;
+}
+
+.list li:nth-child(5) a{
+  background-image: url(/images/unibo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+  font-size: 1.8rem;
+  margin-left: 0.2rem;
+  background-position-y: 0.3em;
+}
+
+.list li:nth-child(5) a:hover,.list li:nth-child(5) a:active,.list li:nth-child(5) a:focus{
+  filter: drop-shadow(0 0 0 #C74350) saturate(0) sepia(50%) saturate(1690%) hue-rotate(360deg);
+}
+
+h5{
+  margin-bottom: 0rem;
+}
+
+main article header p{
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.github-corner svg{
+  fill:#111 !important;
 }
