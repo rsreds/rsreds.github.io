@@ -38,13 +38,13 @@
 
 
 <meta name="author" content="Simone Rossi Tisbeni" />
-<meta name="description" content="As you can see this is my first blog post. I wanted to write one for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking …" />
+<meta name="description" content="I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking HUUUUUUUUUUUUUUUUUUUUUGE inspiration from Ethan Rosenthal&#39;s blog …" />
 <meta name="keywords" content="">
 
 
 <meta property="og:site_name" content="Simone Rossi Tisbeni"/>
 <meta property="og:title" content="How I published my website with pelican"/>
-<meta property="og:description" content="As you can see this is my first blog post. I wanted to write one for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking …"/>
+<meta property="og:description" content="I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking HUUUUUUUUUUUUUUUUUUUUUGE inspiration from Ethan Rosenthal&#39;s blog …"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="/blog/how-i-published-my-website-with-pelican/"/>
 <meta property="og:type" content="article"/>
@@ -133,11 +133,10 @@
 
 
   <div>
-    <p>As you can see this is my first blog post.</p>
-<p>I wanted to write one for a long time, to discuss about any of my endeavour that doesn't strictly fall in the scientific research category, but will consist of both personal and academic projects.</p>
+    <p>I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn't strictly fall in the scientific research category, but will consist of both personal and academic projects.</p>
 <p>As the title suggest, in this first blog I want to present to you how I created my website, by taking <span style="white-space: nowrap;">H<span class="marquee-container"><span  class="marquee">UUUUUUUUUUUUUUUUUUUUU</span></span>GE</span> inspiration from <a href="https://www.ethanrosenthal.com/2014/08/22/hello-world/">Ethan Rosenthal</a>'s blog.</p>
 <h1>Using Pelican</h1>
-<p>For the website I choose to use the <a href="https://getpelican.com/">Pelican</a> static site generator.
+<p>For the website, I choose to use the <a href="https://getpelican.com/">Pelican</a> static site generator.
 The reasons I choose Pelican are many: </p>
 <ul>
 <li>Pelican is written in python, which is a language I'm very familiar with;</li>
@@ -154,7 +153,7 @@ While not impossible, I didn't really want to learn Jinja, or Go to mess with te
 My choice immediately fell to <a href="https://pages.github.com/">GitHub Pages</a>.</p>
 <p>I already used the service quite successfully in the previous iteration of my site, as well as for <a href="https://github.com/numeri-pedine">other projects</a>.
 Moreover, since I already planned to use GitHub to host the source code for the website, using Pages for its deployment seemed natural. </p>
-<p>Setting up a static website in GitHub Pages is quite simple; only requiring you to create a repository titled <code>&lt;username&gt;.github.io</code> with an <code>index.html</code> file in it. After deployment the website will be running on https://&lt;username>.github.io and, by default, any commit on the main branch will launch a new deployment and subsequent update to the website.</p>
+<p>Setting up a static website in GitHub Pages is quite simple; only requiring you to create a repository titled <code>&lt;username&gt;.github.io</code> with an <code>index.html</code> file in it. After deployment, the website will be running on https://&lt;username>.github.io and, by default, any commit on the main branch will launch a new deployment and subsequent update to the website.</p>
 <h1>Automate the site deployment</h1>
 <p>What Pelican does is take a list of files (Markdown articles, static content, custom themes) and process them into the desired output in a specific folder. This directory, after the generation, will contain all the HTML, CSS and JS files that compose your website.</p>
 <p>Since only these file are needed for publishing the website, Pelican supports by default the <a href="https://github.com/c-w/ghp-import"><code>ghp-import</code></a> package that can copy a directory to the <code>gh-pages</code> branch of the repository.</p>
