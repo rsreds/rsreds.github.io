@@ -34,3 +34,15 @@ main article header p{
 .github-corner svg{
   fill:#111 !important;
 }
+
+
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference){
+  body:not(.light-theme) main article :not(pre)>code{
+  background-color: #282828;
+  border-color: #222;
+}
+}
+body.dark-theme main article :not(pre)>code{
+  background-color: #282828;
+  border-color: #222;
+}
