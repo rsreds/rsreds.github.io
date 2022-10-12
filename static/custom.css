@@ -1,7 +1,11 @@
 @import "pelican-blog.css";
 
 a.sc-orcid{
-  background-color: #abce31;
+  background-color: #A6CE39;
+}
+
+a.sc-instagram{
+  background-color: #C13584 !important;
 }
 
 nav a:hover,nav a:active,nav a:focus{
