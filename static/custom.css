@@ -31,6 +31,13 @@ main article header p{
   font-size: 1em;
 }
 
+main article{
+  max-width: 75ch;
+  margin: 0 auto 2%;
+  position: relative;
+  left: -3em;
+}
+
 .github-corner svg{
   fill:#111 !important;
 }
