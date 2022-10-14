@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="/theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="/theme/pygments/github.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+    <link href="/static/custom.css" rel="stylesheet">
+
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+
+<meta name="author" content="Simone Rossi Tisbeni" />
+<meta name="description" content="I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking HUUUUUUUUUUUUUUUUUUUUUGE inspiration from Ethan Rosenthal&#39;s blog …" />
+<meta name="keywords" content="">
+
+
+<meta property="og:site_name" content="Simone Rossi Tisbeni"/>
+<meta property="og:title" content="How I published my website with pelican"/>
+<meta property="og:description" content="I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn&#39;t strictly fall in the scientific research category, but will consist of both personal and academic projects. As the title suggest, in this first blog I want to present to you how I created my website, by taking HUUUUUUUUUUUUUUUUUUUUUGE inspiration from Ethan Rosenthal&#39;s blog …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/blog/how-i-published-my-website-with-pelican/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2022-10-12 00:00:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/simone-rossi-tisbeni.html">
+<meta property="article:section" content="posts"/>
+<meta property="og:image" content="/images/profile.jpg">
+
+  <title>Simone Rossi Tisbeni &ndash; How I published my website with pelican</title>
+
+</head>
+<body >
+  <aside>
+    <div>
+      <a href="">
+        <img src="/images/profile.jpg" alt="Simone Rossi Tisbeni" title="Simone Rossi Tisbeni">
+      </a>
+
+      <h1>
+        <a href="">Simone Rossi Tisbeni</a>
+      </h1>
+
+<p>PhD candidate in Data Science and Computation</p>
+
+      <nav>
+        <ul class="list">
+
+
+
+            <li>
+              <a target="_self" href="/" >Home</a>
+            </li>
+            <li>
+              <a target="_self" href="/about/" >About</a>
+            </li>
+            <li>
+              <a target="_self" href="/publications/" >Publications</a>
+            </li>
+            <li>
+              <a target="_self" href="/blog/" >Blog</a>
+            </li>
+            <li>
+              <a target="_self" href="https://www.unibo.it/sitoweb/simone.rossitisbeni" >Unibo</a>
+            </li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-github" href="https://github.com/rsreds" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/rsreds" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-instagram" href="https://www.instagram.com/rsreds/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/rossi-tisbeni/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-orcid" href="https://orcid.org/0000-0001-6776-285X" target="_blank">
+              <i class="fab fa-orcid"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="how-i-published-my-website-with-pelican"><p>How I published my website with pelican</p></h1>
+    <p>
+      Posted on 12 October 2022 in <a href="/category/posts/">posts</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>I wanted to write a blog for a long time, to discuss about any of my endeavour that doesn't strictly fall in the scientific research category, but will consist of both personal and academic projects.</p>
+<p>As the title suggest, in this first blog I want to present to you how I created my website, by taking <span style="white-space: nowrap;">H<span class="marquee-container"><span  class="marquee">UUUUUUUUUUUUUUUUUUUUU</span></span>GE</span> inspiration from <a href="https://www.ethanrosenthal.com/2014/08/22/hello-world/">Ethan Rosenthal</a>'s blog.</p>
+<h1>Using Pelican</h1>
+<p>For the website, I choose to use the <a href="https://getpelican.com/">Pelican</a> static site generator.
+The reasons I choose Pelican are many: </p>
+<ul>
+<li>Pelican is written in python, which is a language I'm very familiar with;</li>
+<li>It allows me to write content in Markdown in my own editor of choice</li>
+<li>It is easy to deploy, both locally and remotely</li>
+<li>The community provides a lot of ready to use themes, with an easy way to customize them with CSS files.</li>
+</ul>
+<p>In the past years I messed around a lot with creating my own website, by programming it plainly with HTML, CSS and JS. But those solution didn't provide me with enough flexibility to allow me to host a blog in the same space.</p>
+<p>I tried different static site generator, always finding them difficult to personalize due to the fact that you always had to mess with themes to make any changes.
+While not impossible, I didn't really want to learn Jinja, or Go to mess with templates.</p>
+<p>Pelican allows me to simply add a custom CSS file for all my personalization need and in my markdown file I can easily add custom HTML content to enrich the blog post with  <span class="sample-animated-span"></span>.</p>
+<h1>GitHub pages</h1>
+<p>Once chosen the "backend", I decided where to host the website.
+My choice immediately fell to <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<p>I already used the service quite successfully in the previous iteration of my site, as well as for <a href="https://github.com/numeri-pedine">other projects</a>.
+Moreover, since I already planned to use GitHub to host the source code for the website, using Pages for its deployment seemed natural. </p>
+<p>Setting up a static website in GitHub Pages is quite simple; only requiring you to create a repository titled <code>&lt;username&gt;.github.io</code> with an <code>index.html</code> file in it. After deployment, the website will be running on https://&lt;username>.github.io and, by default, any commit on the main branch will launch a new deployment and subsequent update to the website.</p>
+<h1>Automate the site deployment</h1>
+<p>What Pelican does is take a list of files (Markdown articles, static content, custom themes) and process them into the desired output in a specific folder. This directory, after the generation, will contain all the HTML, CSS and JS files that compose your website.</p>
+<p>Since only these file are needed for publishing the website, Pelican supports by default the <a href="https://github.com/c-w/ghp-import"><code>ghp-import</code></a> package that can copy a directory to the <code>gh-pages</code> branch of the repository.</p>
+<p>In my case, I wanted to keep private the repository with the full source code of the website (I'd say for privacy issues, but mostly because I know I'm the one who's gonna mess up and leave some sensitive content in the repo history). For this reason I wanted to connect the <code>gh-pages</code> branch of my private repository to the main branch of my public <a href="https://github.com/rsreds/rsreds.github.io/">https://github.com/rsreds/rsreds.github.io/</a> repository.</p>
+<p>Running the following commands in my private repository allowed me to obtain the desired effect:</p>
+<div class="highlight"><pre><span></span><code>pelican content -o output -s pelicanconf.py
+ghp-import output
+git push git@github.com:rsreds/rsreds.github.io.git gh-pages:main
+</code></pre></div>
+
+<p>the only issue with this system is that the commit message would be a useless "Update documentation" every single time. <code>ghp-import</code> allows to pass a commit message as an argument, but I didn't want to manually specify it each time.</p>
+<p>For this reason I decided to hook the publish of my website, to each new commit on the private repository. I did this via the git hook <code>post-commit</code>, and I solved the commit message issue by passing the last commit message as an argument to the <code>ghp-import</code> command.</p>
+<div class="highlight"><pre><span></span><code>pelican content -o output -s pelicanconf.py
+ghp-import output -m <span class="s2">&quot;</span><span class="k">$(</span>git log -1 --pretty<span class="o">=</span>%B<span class="k">)</span><span class="s2">&quot;</span>
+git push git@github.com:rsreds/rsreds.github.io.git gh-pages:main
+</code></pre></div>
+
+<p>I would have preferred to have the hook tied to a push, but this is not yet possible with git hooks, from the local repository.</p>
+<h1>Finally</h1>
+<p>Just to stick to the format I copied up until now.</p>
+<p>I done a few more thing to customize my blog. In particular I used the <code>CUSTOM_CSS</code>configuration option, provided by <a href="https://github.com/alexandrevicenzi/Flex">Flex</a> (my chosen theme for the site) to link an additional CSS file where I could override the default options. 
+Since the theme supported only one of such files, I used the <code>@import</code> function to make sure that I could split my CSS files in order to make them more readable and easier to edit. </p>
+<p>I would like to add Google Analytics support to my site, as well as Disqus for comments underneath the articles, but I'll wait on that and probably update this blog, or create a new one.</p>
+<p>In the meantime, thank you for wasting time reading this, see you on the next post.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Simone Rossi Tisbeni ",
+  "url" : "",
+  "image": "/images/profile.jpg",
+  "description": ""
+}
+</script>
+<a href="https://github.com/rsreds/rsreds.github.io" class="github-corner" aria-label="View source on Github">
+    <svg width="80"
+         height="80"
+         viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+         aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body">
+        </path>
+    </svg>
+</a>
+<style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+</body>
+</html>
