@@ -91,7 +91,7 @@
 .fa-fw {
   text-align: center;
   width: 1.25em; }
-
+/* 
 .fa-ul {
   list-style-type: none;
   margin-left: var(--fa-li-margin, 2.5em);
@@ -233,7 +233,7 @@
   -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
           animation-iteration-count: var(--fa-animation-iteration-count, infinite);
   -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
-          animation-timing-function: var(--fa-animation-timing, steps(8)); }
+          animation-timing-function: var(--fa-animation-timing, steps(8)); } 
 
 @media (prefers-reduced-motion: reduce) {
   .fa-beat,
@@ -484,7 +484,7 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
-.fa-0::before {
+/* .fa-0::before {
   content: "\30"; }
 
 .fa-1::before {
@@ -2712,10 +2712,10 @@ readers do not read off random characters that represent icons */
 
 .fa-file-alt::before {
   content: "\f15c"; }
-
+*/ 
 .fa-file-text::before {
-  content: "\f15c"; }
-
+  content: "\f15c"; } 
+/*
 .fa-file-medical::before {
   content: "\f477"; }
 
@@ -6335,4 +6335,4 @@ readers do not read off random characters that represent icons */
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  border-width: 0; }
+  border-width: 0; } */
