@@ -120,8 +120,8 @@
 It's usefulness have made it more or less ubiquitous in data science and more generally in scientific research.</p>
 <p>In this blog, I will often present code snippets in jupyter notebook, and I wanted to find out how to share them on static web pages.
 In this post I'll present you the solutions I found.</p>
-<h2>Embedding a notebook via Github Gist</h2>
-<p>The easiest way to display a jupyter on your website or blog post is by using Github gist.
+<h2>Embedding a notebook via GitHub Gist</h2>
+<p>The easiest way to display a jupyter on your website or blog post is by using GitHub gist.
 Gist will host and display the notebook, while providing a script to embed the content in the page.</p>
 <p>The steps to follow are:</p>
 <ol>
@@ -140,7 +140,7 @@ Gist will host and display the notebook, while providing a script to embed the c
 <p>The resulting notebook is perfect for display, but is not interactive.
 This method is still really useful to quickly present and share results.</p>
 <h2>Embedding a live notebook with JupyterLite</h2>
-<p>Recently, a Jupyterlab distribution capable of running entirely in a web browser has been made available as unofficial release.
+<p>Recently, a JupyterLab distribution capable of running entirely in a web browser has been made available as unofficial release.
 Other than deploying it into your own web server, JupyterLite includes a minimal REPL application ready to use, that can be embedded on any website.</p>
 <p>The live notebook can be easily included by adding this code in your page:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span>  
@@ -149,8 +149,8 @@ Other than deploying it into your own web server, JupyterLite includes a minimal
 </code></pre></div>
 <p>which will give you this result:</p>
 <iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python"></iframe>
-<p>Additionally, you can specify the size of the iframe with the <code>width</code> and <code>height</code> keywords, as well as the color theme with <code>theme=JupyterLab Dark</code> or <code>theme=JupyterLab Light</code></p>
-<p>Finally, you can have it automatically execute code on startup by passing <code>&amp;code=</code> to the source url.</p>
+<p>Additionally, you can specify the size of the <code>iframe</code> with the <code>width</code> and <code>height</code> keywords, as well as the colour theme with <code>theme=JupyterLab Dark</code> or <code>theme=JupyterLab Light</code></p>
+<p>Finally, you can have it automatically execute code on start up by passing <code>&amp;code=</code> to the source URL.</p>
 <p>You can break the code in multiple lines with <code>%0A</code>, and you can even add multiple cells by appending other instances of the <code>code</code> keyword.</p>
 <p>For example:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span>
