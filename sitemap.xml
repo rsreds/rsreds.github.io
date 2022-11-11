@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.rossitisbeni.me/</loc>
-<lastmod>2022-11-11T17:31:09-00:00</lastmod>
+<lastmod>2022-11-11T17:34:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.rossitisbeni.me/about/</loc>
-<lastmod>2022-11-11T17:31:09-00:00</lastmod>
+<lastmod>2022-11-11T17:34:25-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.rossitisbeni.me/publications/</loc>
-<lastmod>2022-11-11T17:31:09-00:00</lastmod>
+<lastmod>2022-11-11T17:34:25-00:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.rossitisbeni.me/blog/how-i-published-my-website-with-pelican/</loc>
-<lastmod>2022-10-12T00:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.rossitisbeni.me/blog/embedding-a-jupyter-notebook-on-a-static-web-page/</loc>
 <lastmod>2022-11-11T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.rossitisbeni.me/blog/how-i-published-my-website-with-pelican/</loc>
+<lastmod>2022-10-12T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,8 +46,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.rossitisbeni.me/tag/pelican/</loc>
-<lastmod>2022-10-12T00:00:00+00:50</lastmod>
+<loc>https://www.rossitisbeni.me/tag/jupyter/</loc>
+<lastmod>2022-11-11T00:00:00+00:50</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,8 +60,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.rossitisbeni.me/tag/jupyter/</loc>
-<lastmod>2022-11-11T00:00:00+00:50</lastmod>
+<loc>https://www.rossitisbeni.me/tag/pelican/</loc>
+<lastmod>2022-10-12T00:00:00+00:50</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
