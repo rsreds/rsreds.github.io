@@ -136,7 +136,7 @@ Gist will host and display the notebook, while providing a script to embed the c
 <li>Paste the script in your blog</li>
 <li>Profit!</li>
 </ol>
-<script src="https://gist.github.com/rsreds/0f17575845d9e8d247fe7db2e72922ff.js"></script>
+<script async="" src="https://gist.github.com/rsreds/0f17575845d9e8d247fe7db2e72922ff.js"></script>
 <p>The resulting notebook is perfect for display, but is not interactive.
 This method is still really useful to quickly present and share results.</p>
 <h2>Embedding a live notebook with JupyterLite</h2>
@@ -144,11 +144,11 @@ This method is still really useful to quickly present and share results.</p>
 Other than deploying it into your own web server, JupyterLite includes a minimal REPL application ready to use, that can be embedded on any website.</p>
 <p>The live notebook can be easily included by adding this code in your page:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span>  
-  <span class="na">src</span><span class="o">=</span><span class="s">"https://jupyterlite.github.io/demo/repl/index.html?kernel=python"</span><span class="p">&gt;</span>
+  <span class="na">src</span><span class="o">=</span><span class="s">"https://jupyterlite.github.io/demo/repl/index.html?kernel=python"</span><span class="p">&gt;</span>,
 <span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
 </code></pre></div>
 <p>which will give you this result:</p>
-<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python"></iframe>
+<iframe loading="lazy" src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python"></iframe>
 <p>Additionally, you can specify the size of the <code>iframe</code> with the <code>width</code> and <code>height</code> keywords, as well as the colour theme with <code>theme=JupyterLab Dark</code> or <code>theme=JupyterLab Light</code></p>
 <p>Finally, you can have it automatically execute code on start up by passing <code>&amp;code=</code> to the source URL.</p>
 <p>You can break the code in multiple lines with <code>%0A</code>, and you can even add multiple cells by appending other instances of the <code>code</code> keyword.</p>
@@ -165,7 +165,7 @@ Other than deploying it into your own web server, JupyterLite includes a minimal
 <span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
 </code></pre></div>
 <p>will result in this:</p>
-<p><iframe height="600px" src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;theme=JupyterLab Dark&amp;code=
+<p><iframe height="600px" loading="lazy" src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;theme=JupyterLab Dark&amp;code=
 import numpy as np %0A
 import matplotlib.pyplot as plt %0A
 a = np.arange(15).reshape(3, 5) %0A
