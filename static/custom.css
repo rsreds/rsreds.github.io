@@ -1,5 +1,6 @@
 @import "pelican-blog.css";
 
+
 a.sc-orcid {
   background-color: #A6CE39;
 }
@@ -8,13 +9,17 @@ a.sc-instagram {
   background-color: #C13584 !important;
 }
 
+a.sc-itch-io {
+  background-color: #fa5c5c !important;
+}
+
 nav a:hover,
 nav a:active,
 nav a:focus {
   color: #ff5a09;
 }
 
-.list li:nth-child(5) a {
+/* .list li:nth-child(5) a {
   background-image: url(/images/unibo.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,7 +33,7 @@ nav a:focus {
 .list li:nth-child(5) a:active,
 .list li:nth-child(5) a:focus {
   filter: drop-shadow(0 0 0 #C74350) saturate(0) sepia(50%) saturate(1690%) hue-rotate(360deg);
-}
+} */
 
 h5 {
   margin-bottom: 0rem;
